@@ -2,9 +2,12 @@
 
 **Team:** Yaswanth Srinivas, Prince, Mukhesh  
 
-### Presentation Slide deck and Recording
+### Recording
 
-* [Recording](#) *([Link to video](https://youtu.be/3dFy-hIGe_Y))*
+Watch the full research walkthrough here:  
+[![Watch the demo](https://img.youtube.com/vi/3dFy-hIGe_Y/0.jpg)](https://www.youtube.com/watch?v=3dFy-hIGe_Y)
+
+> 💡 **Tip:** Watch at 1.5x speed for a faster overview!
 
 ### Overview
 
