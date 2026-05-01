@@ -4,7 +4,7 @@
 
 ### Presentation Slide deck and Recording
 
-* [Recording](#) *(Link to video)*
+* [Recording](#) *([Link to video](https://youtu.be/3dFy-hIGe_Y))*
 
 ### Overview
 
