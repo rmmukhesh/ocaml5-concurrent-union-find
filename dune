@@ -1,0 +1,59 @@
+(include_subdirs unqualified)
+
+(library
+ (name project_z)
+ (wrapped false)
+ (modules
+  Union_find
+  Union_find_stats
+  Union_find_common
+  Sequential_union_find
+  Mutex_union_find
+  Node_lock_union_find
+  Cas_union_find
+  Graph_connectivity
+  Graph_generators
+  test_support)
+ (modules_without_implementation union_find))
+
+(executable
+ (name Union_find_correctness_test)
+ (libraries project_z)
+ (modules Union_find_correctness_test)
+ (modes exe))
+
+(executable
+ (name QCheck_stm)
+ (libraries project_z qcheck-stm.domain qcheck-stm.sequential qcheck-core)
+ (modules QCheck_stm)
+ (modes exe))
+
+(executable
+ (name QCheck_lin)
+ (libraries project_z qcheck-lin.domain qcheck-core)
+ (modules QCheck_lin)
+ (modes exe))
+
+(executable
+ (name cas_stress_test)
+ (libraries project_z)
+ (modules cas_stress_test)
+ (modes exe))
+
+(executable
+ (name union_find_bench)
+ (modules union_find_bench)
+ (libraries project_z unix)
+ (modes exe))
+
+(executable
+ (name union_find_graph_bench)
+ (modules union_find_graph_bench)
+ (libraries project_z unix)
+ (modes exe))
+
+(executable
+ (name union_find_connectivity_bench)
+ (modules union_find_connectivity_bench)
+ (libraries project_z unix)
+ (modes exe))
