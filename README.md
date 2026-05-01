@@ -5,7 +5,7 @@
 ### Recording
 
 Watch the full research walkthrough here:  
-[![Watch the demo](https://img.youtube.com/vi/3dFy-hIGe_Y/0.jpg)](https://www.youtube.com/watch?v=3dFy-hIGe_Y)
+[![Watch the demo](https://img.youtube.com/vi/3dFy-hIGe_Y/hqdefault.jpg)](https://www.youtube.com/watch?v=3dFy-hIGe_Y)
 
 > 💡 **Tip:** Watch at 1.5x speed for a faster overview!
 
