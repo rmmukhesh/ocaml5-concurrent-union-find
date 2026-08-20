@@ -144,4 +144,3 @@ Results are saved as `.csv` files and plotted using `scripts/plot_time.py`.
 Yes. Our Lock-Free CAS approach achieved up to a **1.76x speedup** over the sequential baseline on balanced workloads (50% union mix), peaking at 4 OCaml domains. 
 
 By tracking internal metrics (`src/union_find_stats.ml`), we observed that CAS failure rates remained below 0.1%. This proves that the algorithm successfully avoids retry storms. The scaling plateau beyond physical core limits is driven entirely by hardware atomic memory traffic constraints and OCaml domain scheduling overhead, rather than algorithmic contention. In contrast, global mutex completely eliminated parallelism, and node-level locking suffered from immense constant overhead that nullified its concurrent advantages.
-```
